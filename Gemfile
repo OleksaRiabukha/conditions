@@ -9,6 +9,8 @@ gem 'rails', '~> 7.0.4', '>= 7.0.4.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
+gem 'pry', '~> 0.13.1'
+gem 'dry-validation'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
