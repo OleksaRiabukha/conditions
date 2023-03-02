@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   resources 'conditions', only: :create, defaults: { format: :json }
+  get '/conditions/:id/calculate', to: 'conditions#calculate'
 end
