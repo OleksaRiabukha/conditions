@@ -1,4 +1,5 @@
 # README
+```
 {
     "condition": {
         "name": "some_name",
@@ -11,3 +12,4 @@
         }
     }
 }
+```
